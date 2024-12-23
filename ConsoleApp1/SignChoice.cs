@@ -10,27 +10,27 @@ public class Choice
                 break;
             case '+':
                 Console.Clear();
-                Console.WriteLine("Ответ: " + Calculator.Summary(secondValue, firstValue));
+                Console.WriteLine("Ответ: " + Calculator.Summary(secondValue));
                 break;
             case '-':
                 Console.Clear();
-                Console.WriteLine("Ответ: " + Calculator.Subtraction(secondValue, firstValue));
+                Console.WriteLine("Ответ: " + Calculator.Subtraction(secondValue));
                 break;
             case '*':
                 Console.Clear();
-                Console.WriteLine("Ответ: " + Calculator.Multiplication(secondValue, firstValue));
+                Console.WriteLine("Ответ: " + Calculator.Multiplication(secondValue));
                 break;
             case '/':
                 Console.Clear();
-                Console.WriteLine("Ответ: " + Calculator.Division(secondValue, firstValue));
+                Console.WriteLine("Ответ: " + Calculator.Division(secondValue));
                 break;
             case '^':
                 Console.Clear();
-                Console.WriteLine("Ответ: " + Calculator.Power(secondValue, firstValue));
+                Console.WriteLine("Ответ: " + Calculator.Power(secondValue));
                 break;
             case 's':
                 Console.Clear();
-                Console.WriteLine("Ответ: " + Calculator.Sqrt(secondValue, firstValue));
+                Console.WriteLine("Ответ: " + Calculator.Sqrt(secondValue));
                 break;
             default: break;
         }
