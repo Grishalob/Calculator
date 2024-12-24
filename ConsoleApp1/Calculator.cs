@@ -37,7 +37,6 @@
                 return result;
 
         }
-    
     public static double Clean()
         {
             Console.Clear();
